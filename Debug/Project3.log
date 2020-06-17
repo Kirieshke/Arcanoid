@@ -1,0 +1,38 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Project3.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  main.cpp
+d:\bootstrap\project3\project3\platform.h(8): warning C4305: инициализация: усечение из "double" в "float"
+d:\bootstrap\project3\project3\main.cpp(26): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+d:\bootstrap\project3\project3\main.cpp(32): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+d:\bootstrap\project3\project3\main.cpp(88): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+d:\bootstrap\project3\project3\main.cpp(163): warning C4018: <: несоответствие типов со знаком и без знака
+d:\bootstrap\project3\project3\main.cpp(194): warning C4018: <: несоответствие типов со знаком и без знака
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory0(881): warning C4244: аргумент: преобразование "_Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(900): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,double,float>(_Alloc &,_Objty *const ,double &&,float &&)"
+          with
+          [
+              _Alloc=std::allocator<Block>,
+              _Ty=Block,
+              _Objty=Block
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(902): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,double,float>(_Alloc &,_Objty *const ,double &&,float &&)"
+          with
+          [
+              _Alloc=std::allocator<Block>,
+              _Ty=Block,
+              _Objty=Block
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(916): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::vector<Block,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<double,float>(double &&,float &&)"
+          with
+          [
+              _Ty=Block
+          ]
+  d:\bootstrap\project3\project3\main.cpp(46): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::vector<Block,std::allocator<_Ty>>::emplace_back<double,float>(double &&,float &&)"
+          with
+          [
+              _Ty=Block
+          ]
+  Project3.vcxproj -> D:\Bootstrap\Project3\Debug\Arcanoid.exe
